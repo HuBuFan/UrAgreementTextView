@@ -5,8 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
-import com.klein.library.OnAgreementClickListener;
-import com.klein.library.UrAgreementTextView;
+import com.hubufan.agreement.OnAgreementClickListener;
+import com.hubufan.agreement.UrAgreementTextView;
+
 
 public class MainActivity extends AppCompatActivity {
 

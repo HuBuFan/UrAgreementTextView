@@ -1,4 +1,4 @@
-package com.klein.library;
+package com.hubufan.agreement;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.klein.library;
+package com.hubufan.agreement;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.klein.library.test", appContext.getPackageName());
+        assertEquals("com.hubufan.agreement.test", appContext.getPackageName());
     }
 }
