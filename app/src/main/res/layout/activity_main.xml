@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.klein.library.UrAgreementTextView
+        android:id="@+id/tv_agreement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.2"
+        android:padding="14dp"
+        android:textSize="14sp"
+        app:agreementArraysId="@array/agreements"
+        app:agreementCheckedId="@drawable/check_true"
+        app:agreementContext="@string/agreement"
+        app:agreementContextColor="#666666"
+        app:agreementHintColor="#666666"
+        app:agreementHintText="@string/agreement_hint"
+        app:agreementUnCheckedId="@drawable/check_false"
+        app:agreementsColor="#F1341A"
+        app:isChecked="false" />
+
+</LinearLayout>

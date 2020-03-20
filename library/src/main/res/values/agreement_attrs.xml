@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="UrAgreementTextView">
+        <!--        协议全内容-->
+        <attr name="agreementContext" format="string" />
+        <!--        协议字体颜色-->
+        <attr name="agreementContextColor" format="color|reference" />
+        <!--        协议提示文本-->
+        <attr name="agreementHintText" format="string" />
+        <!--        协议提示文本颜色-->
+        <attr name="agreementHintColor" format="color|reference" />
+        <!--        协议 数组-->
+        <attr name="agreementArraysId" format="integer|reference" />
+        <!--        协议颜色-->
+        <attr name="agreementsColor" format="color|reference" />
+        <!--        协议默认是否为选中-->
+        <attr name="isChecked" format="boolean" />
+        <!--        选中图标-->
+        <attr name="agreementCheckedId" format="reference" />
+        <!--        未选中图标-->
+        <attr name="agreementUnCheckedId" format="reference" />
+    </declare-styleable>
+</resources>

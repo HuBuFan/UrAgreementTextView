@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UrAgreementTextView</string>
+    <string name="agreement">&#160;&#160;我已阅读并同意《注册服务协议》，《用户隐私协议》与《风险揭示书》</string>
+    <string name="agreement_hint">我已阅读并同意</string>
+    <string-array name="agreements">
+        <item>《注册服务协议》</item>
+        <item>《用户隐私协议》</item>
+        <item>《风险揭示书》</item>
+    </string-array>
+</resources>
